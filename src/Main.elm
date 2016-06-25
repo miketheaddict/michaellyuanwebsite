@@ -1,9 +1,7 @@
 import Html.App
 
 -- My Modules
-import Model exposing (..)
-import View exposing (..)
-import Update exposing (..)
+import Globals exposing (..)
 
 main : Program Never
 main =
