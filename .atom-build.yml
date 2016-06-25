@@ -1,0 +1,1 @@
+cmd: echo Building Main.elm && elm make --warn .\src\Main.elm --output .\out\elm.js --yes && copy .\src\Html\index.html .\out\index.html /y && xcopy res .\out\ /s /e /y
